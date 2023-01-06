@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+  
+}
+
+
+.header-container{
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+height: 809px;
+/* display: flex; */
+margin: 200px,600px;
+   
+}
+.btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px; 
+    background: #F15B22;
+border-radius: 5px;
+}
+.header-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    
+    /* Dark 01 */
+    
+    color: #151414;
+     
+}
+.praro-description{
+    position: absolute;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: right;
+
+/* Dark 02 */
+
+color: #444343;
+}
+.header{
+    background-color: red;
+    
+}
+.title{
+    /* margin-left: 1100px; */
+}
+.section-container{
+display: flex;
+}
+.profile{
+    margin-top: 350px;
+    /* margin-left: 900px; */
+    width: 416px;
+height: 422px;
+margin-left: 300px;
+}
+.plan{
+    display: flex;
+    gap: 50px;
+    margin-top: 122px;
+    margin-left: 250px;
+    align-items: center;
+}
+.plan-title{
+    /* margin: 0,auto; */
+    text-align: center;
+}
+.watch{
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    /* width: 459px;
+height: 182px;
+margin: 20px,230px; */
+position: absolute;
+width: 800px;
+height: 182px;
+left: 294px;
+margin-top: 50px;
+
+
+}
+.watch-description{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 459px;
+height: 182px;
+
+}
+.btn-parimary{
+    background: #F15B22;
+border-radius: 5px;
+}
+.watch-para{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+}
+.footer-container{
+    display: flex;
+    position: absolute;
+width: 1300px;
+height: 200px;
+left: 0px;
+top: 2646.3px;
+gap: 80px;
+background: #151414;
+margin-left: 200px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+justify-content: space-around;
+
+/* background-color: black; */
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+  
+  width: 190px;
+
+}
+.future{
+   margin-left: 100px;
+}
